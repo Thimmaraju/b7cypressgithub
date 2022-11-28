@@ -13,7 +13,7 @@ describe('Understanding Fixtures - Cypress', function() {
 
       cy.get("#reg_username").type(this.data.username)
 
-      cy.wait(25000)
+      cy.wait(20000)
       cy.get('#reg_email').type(this.data.email);
 
 

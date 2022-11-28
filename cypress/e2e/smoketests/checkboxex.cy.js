@@ -10,6 +10,8 @@ describe('checkbox Test', function () {
      
        cy.visit("https://demoqa.com/checkbox");
 
+       
+
        cy.get("button[title='Toggle']").click();
        // checking by values
        //cy.get('input[type="checkbox"]').check({force: true});
